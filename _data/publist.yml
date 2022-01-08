@@ -3,7 +3,7 @@
   description: We use our atomic-scale scanning tunneling noise setup on a disordered superconductor, and discover a state above TC that, much like an ordinary metal, has no (pseudo)gap, but carries charge via paired electrons.
   authors: P Lyu, SH Kang, Y Kang, MS Choi
   link:
-    url: 
+    url: https://www.earticle.net/Article/A400948
     display: Asia-Europe Perspective Association, (2021)
   highlight: 1
   news2: See [Physics World](https://physicsworld.com/a/cooper-pairs-spotted-above-critical-temperature-for-superconductivity/), [SRON news](https://www.sron.nl/news/5169-elektronparen-blijven-stabiel-boven-kritische-temperatuur-supergeleiding), [TU Delft news](https://www.tudelft.nl/en/2021/eemcs/inexplicably-stable-electron-pairs-without-superconductivity), [Leiden news](https://www.universiteitleiden.nl/en/news/2021/10/new-quantum-liquid-discovered).
@@ -13,7 +13,7 @@
   description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
   authors: MW Iqbal, Y Kang
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0959652620352756
     display:  Elsevier BV, (2021)
   highlight: 0
   news2:
@@ -23,7 +23,7 @@
   description: Why is there so much variation in TBG devices? And are open devices more disordered than encapsulated ones? We introduce a new method to continuously map inhomogeneities of a moiré lattice and apply it to open-device TBG to show that twist angle variation is small over areas of hundreds of nm.
   authors: MB Ramzan, Y Kang, MW Iqbal 
   link:
-    url: 
+    url: https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-6587ab0d-0983-48eb-8d0a-495d7ed1d4b4
     display:  Institute of Chemical Fibres, (2021)
   highlight: 1
   news2: See also [arXiv:2107.14716](https://arxiv.org/abs/2107.14716)
@@ -33,7 +33,7 @@
   description: We report on a peculiar, spatially dispersing YSR state in Fe(Se,Te) that can be tuned by the tip.
   authors: D Min, Y Kang
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0360835220307129
     display:  Pergamon Press Ltd, (2021)
   highlight: 1
 
@@ -42,7 +42,7 @@
   description:
   authors: MW Iqbal, Y Kang, HW Jeon
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0959652619336972
     display: ELSEVIER SCI LTD, (2020)
   highlight: 0
   news2:
@@ -53,7 +53,7 @@
   description: A first paper from the TBG collaboration is online, with beautiful data from the Baumberger group in Geneva, and great devices from the Efetov group at ICFO. We measured STM on the device.
   authors: Y Kang, S Lee, B Do Chung
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0360835219302554
     display:  Pergamon Press Ltd, (2019)
   highlight: 1
   news2: News coverage by <a href="https://www.nrc.nl/nieuws/2020/09/28/slome-elektronen-maken-grafeen-supergeleidend-a4013840"> NRC </a>
@@ -63,7 +63,7 @@
   authors: MW Iqbal, Y Kang
   description: We directly test the consistency of results from these three techniques by comparing data from the correlated metal Sr2RhO4. Using ARPES, STM, and quantum oscillations, we find good agreement for the Fermi surface topography and carrier effective masses. Hence, the apparent absence of such an agreement in other quantum materials, including the cuprates, suggests that the electronic states in these materials are of different, non-Fermi liquid-like nature. Collaboration with the groups of <a href='https://dqmp.unige.ch/baumberger/'>Baumberger</a>, <a href='https://www.london-nano.com/our-people/our-people-bios/robin-perry'>Perry</a>,  and <a href='https://www.mpg.de/6812374/chem_physik_fester_stoffe_mackenzie'>Mackenzie</a>.
   link:
-    url: 
+    url: http://www.ieomsociety.org/ieom2019/papers/96.pdf
     display:  IEOM Society International, (2019)
   highlight: 1
   news2:
@@ -73,7 +73,7 @@
   authors: Y Kang, M Kang, K Chung
   description:
   link:
-    url: 
+    url: http://calsec.or.kr/jsebs/index.php/jsebs/article/view/350
     display:  Journal of Society for e-Business Studies, (2019)
   highlight: 0
   news2:
@@ -83,7 +83,7 @@
   description: A first paper from the TBG collaboration is online, with beautiful data from the Baumberger group in Geneva, and great devices from the Efetov group at ICFO. We measured STM on the device.
   authors:  J Kim, B Do Chung, Y Kang, B Jeong
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0959652618318079
     display:  ELSEVIER SCI LTD, (2018)
   highlight: 0
   news2:
@@ -93,7 +93,7 @@
   description: We succeeded in measuring the superfluid density with atomic resolution on an unconventional superconductor! In contrast to expectations for conventional superconductors, we find that the superfluid densisty is strongly inhomogeneous in FeTe0.55Se0.45.
   authors: BY Kim, H Seok, Y Kang
   link:
-    url: 
+    url: https://journals.co.za/doi/abs/10.7166/29-2-1813
     display:  SOUTHERN AFRICAN INST INDUSTRIAL ENGINEERING, (2018)
   highlight: 1
   news2:
@@ -103,7 +103,7 @@
   description: We introduce a platform for bringing new, device-based functionality to STM, with the goal of utilizing decades of progress in device engineering for the field of scanning probe.
   authors: Y Kang
   link:
-    url: 
+    url: https://link.springer.com/chapter/10.1007/978-3-319-99707-0_21
     display: Springer, (2018)
   highlight: 1
   news2: See also our papers on the theoretical modeling of such measurements, and the paper about fabrication.
@@ -113,7 +113,7 @@
   description: We have imaged the doubling of the current noise due to Andreev reflections in a Josephson scanning tunneling microscope.
   authors: HW Jeon, S Lee, A Kargarian, Y Kang
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0959652617315433
     display:  Elsevier, (2017)
   highlight: 1
   news2:
@@ -123,7 +123,7 @@
   description: Our first completely home-built STM is alive! And it has the world’s highest resonance frequency.
   authors: S Lee, Y Kang, NS Ialongo, VV Prabhu
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0957417416300549
     display:  PERGAMON-ELSEVIER SCIENCE LTD, (2016)
   highlight: 1
   news2:
@@ -133,7 +133,7 @@
   description: Using our newly developed noise-spectroscopy technique we discover charge trapping in a cuprate high-temperature superconductor.
   authors: Y Kang, MR Steis
   link:
-    url: 
+    url: https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-016-0335-y
     display:  BIOMED CENTRAL LTD, (2016)
   highlight: 1
   news1: <a href="https://aip.scitation.org/doi/10.1063/1.5043267">Instrument details in Rev. Sci. Instrum. 89, 093709 (2018)</a>
@@ -144,7 +144,7 @@
   description: We develop, build and test a novel amplifier circuit capable of measuring the tunneling current in the MHz regime while simultaneously performing conventional STM measurements. We are looking forward to performing scanning noise spectroscopy on quantum materials!
   authors: Y Kang, AM Sawyer, PM Griffin, VV Prabhu
   link:
-    url: 
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0377221715006724
     display:  ELSEVIER SCIENCE BV, (2016)
   highlight: 0
   news2:
@@ -154,7 +154,7 @@
   description: ""
   authors: S Lee, Y Kang, VV Prabhu
   link:
-    url: 
+    url: https://www.tandfonline.com/doi/abs/10.1080/00207543.2015.1132856
     display:  TAYLOR  FRANCIS LTD, (2016)
   highlight: 0
   news2: Coverd in Superconductor Week, November 30, 2017 Vol. 31, No. 10
@@ -166,7 +166,7 @@
   authors:
     AM Sawyer, Y Kang, V Honavar, P Griffin
   link:
-    url: 
+    url: https://pubmed.ncbi.nlm.nih.gov/25736372/
     display: Elsevier, (2015)
   highlight: 1
 
