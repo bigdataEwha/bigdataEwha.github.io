@@ -24,7 +24,7 @@ Big data analytics is a field with an enormous potential to create value in this
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/big-data-cover-photo.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/genomic-data.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/pngtree-big-data-line-technology-background-image_321144.jpg" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/istock-1219306859.jpg" alt="Slide 3" />
