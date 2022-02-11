@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-We are a multi-disciplinary research group consisting of School of Business (Division:Management Science) and Big-data Analytics in the graduate school of Ewha Womans University. We tackle challenges in a wide range of industrial sectors using a number of AI approaches and data analytics.
+We are a multi-disciplinary research group consisting of School of Business(Division:Management Science) and Big-data Analytics in the graduate school of Ewha Womans University. We tackle challenges in a wide range of industrial sectors using a number of AI approaches and data analytics.
 
 
 
