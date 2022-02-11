@@ -74,7 +74,6 @@ permalink: /team/
 
 ## Alumni
 
-<h4>Alumni</h4>
 {% for member in site.data.alumni_visitors %}
 {{ member.name }}
 {% endfor %}
