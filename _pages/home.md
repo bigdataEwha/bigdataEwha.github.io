@@ -59,7 +59,7 @@ We are a multi-disciplinary research group consisting of School of Business (Div
 </div>
     
     
-<div class="col-sm-4">
+<div class="col-sm-12">
 
  <h4>APPLICATIONS</h4>
  - Health care <br />
