@@ -6,7 +6,8 @@ sitemap: false
 permalink: /
 ---
 
-Big data analytics is a field with an enormous potential to create value in this knowledge-based society, and is considered one of the key growth engines for the next generation. The Master's degree in Big data analytics is designed to prepare students for challenging careers in the application of IT and data analytics to solve various problems in business and our society.
+We are a multi-disciplinary research group consisting of School of Business (Division: Management Science) and Big-data Analytics in the graduate school of Ewha Womans University. We tackle challenges in a wide range of industrial sectors using a number of AI approaches and data analytics.
+
 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
@@ -24,7 +25,7 @@ Big data analytics is a field with an enormous potential to create value in this
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/big-data-cover-photo.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/dec21-ate-bigdata-1800x900-1-l.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/pngtree-big-data-line-technology-background-image_321144.jpg" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/istock-1219306859.jpg" alt="Slide 3" />
@@ -39,13 +40,39 @@ Big data analytics is a field with an enormous potential to create value in this
     <span class="sr-only">Next</span>
   </a>
 </div>
+<div class="row">
 
+<div class="col-sm-4">
 
+ <h4>METHODOLOGIES </h4>
+ - Decision Making Theories <br />
+ - Sequential Decision Making <br />
+ - Mathematical Programming <br />
+ - Data Analytics and AI <br />
+ - Machine Learning/Deep Learning <br />
+ - Time Series Analytics
 
+</div>
+    
+<div class="col-sm-4">
+    
+</div>
+    
+    
+<div class="col-sm-4">
 
-Big data professionals are a data scientist with strong knowledge about IT, data analysis skills and business application capability. Students in big data analytics program in Ewha Womans University learn business processes, data analysis skills and IT skills through our convergent and multi-disciplinary program covers business, information technology, computer science, and statistics field.
+ <h4>APPLICATIONS</h4>
+ - Health care <br />
+ - Logistics <br />
+ - Energy <br />
+ - Finance <br />
+ - Legal <br />
+ - Education
 
-The Doctor of Philosophy in big data analytics is the highest academic honor an institution can bestow to its students. The doctoral program is rigorous with an aim to train and prepare students to be critical and creative independent thinkers. A Big data analytics Ph.D. gives students the ability to perform critical analysis of existing work, and to undertake research studies to advance academic understanding in the data analytics field in the course of their Ph.D. studies and in their subsequent career.
+</div>
+    
+
+</div>
 
 <p align="center">
   <img class='img-responsive center-block' src="{{ site.url }}{{ site.baseurl }}/images/logopic/시그니처(가로_1.국영문혼합).png" style="width: 210px">
