@@ -27,6 +27,16 @@ excerpt_separator: "\n\n"
 incremental: false
 
 
+# Analytics
+analytics:
+  provider: google
+  
+  #google 
+  google:
+    tracking_id : G-M1F76MMXFL
+    anonymize_ip : false
+
+
 
 # Markdown Processing
 kramdown:
