@@ -70,12 +70,7 @@
   education1: Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision
 
 
-- name: Mihee Lee(이미희)
-  photo: 이미희.jpg
-  info: Master Student, started Dec 2021
-  email: mihee.lee@ewhain.net
-  number_educ: 1
-  education1: Machine Learning, Deep Learning, Recommendation System, Reinforcement Learning
+
   
   
 - name: Hong Jin(김홍)
@@ -84,4 +79,3 @@
   email: jinhong7887@ewhain.net
   number_educ: 1
   education1: Machine Learning, Deep Learning, Computer Vision
-
