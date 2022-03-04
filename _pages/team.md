@@ -71,6 +71,7 @@ permalink: /team/
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   <li> {{ member.education6 }} </li>
+  <li> {{ member.education7 }} </li>
   {% endif %}
     
     
@@ -81,6 +82,8 @@ permalink: /team/
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   <li> {{ member.education6 }} </li>
+  <li> {{ member.education7 }} </li>
+  <li> {{ member.education8 }} </li>
   {% endif %}
     
     
@@ -91,6 +94,9 @@ permalink: /team/
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   <li> {{ member.education6 }} </li>
+  <li> {{ member.education7 }} </li>
+  <li> {{ member.education8 }} </li>
+  <li> {{ member.education9 }} </li>
   {% endif %}
     
     
@@ -101,6 +107,10 @@ permalink: /team/
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   <li> {{ member.education6 }} </li>
+  <li> {{ member.education7 }} </li>
+  <li> {{ member.education8 }} </li>
+  <li> {{ member.education9 }} </li>
+  <li> {{ member.education10 }} </li>
   {% endif %}
 
   </ul>
