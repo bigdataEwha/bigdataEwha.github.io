@@ -88,16 +88,6 @@
   highlight: 0
   news2:
 
-- title: "AN INTELLIGENT RTP-BASED HOUSEHOLD ELECTRICITY SCHEDULING WITH A GENETIC ALGORITHM IN A SMART GRID"
-  image: STS_news.png
-  description: We succeeded in measuring the superfluid density with atomic resolution on an unconventional superconductor! In contrast to expectations for conventional superconductors, we find that the superfluid densisty is strongly inhomogeneous in FeTe0.55Se0.45.
-  authors: BY Kim, H Seok, Y Kang
-  link:
-    url: https://journals.co.za/doi/abs/10.7166/29-2-1813
-    display:  SOUTH AFRICAN JOURNAL OF INDUSTRIAL ENGINEERING, (2018)
-  highlight: 1
-  news2:
-
 - title: "An Order Control Policy in Crowdsourced Parcel Pickup and Delivery Service"
   image: SmartPub.png
   description: We introduce a platform for bringing new, device-based functionality to STM, with the goal of utilizing decades of progress in device engineering for the field of scanning probe.
