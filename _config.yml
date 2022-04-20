@@ -29,12 +29,11 @@ incremental: false
 
 # Analytics
 analytics:
-  provider: "google-gtag"
+  provider: google
   
   #google 
   google:
-    tracking_id : "G-M1F76MMXFL"
-    measurement_id : "G-M1F76MMXFL"
+    tracking_id : G-M1F76MMXFL
     anonymize_ip : false
 
 
