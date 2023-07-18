@@ -1,4 +1,5 @@
-<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+<html>
+<head>
     <!-- ========== Meta Tags ========== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,403 +22,498 @@
     <link href="static/css/responsive.css?456798" rel="stylesheet">
     <link href="static/css/bootsnav.css" rel="stylesheet">
     <!-- ========== End Stylesheet ========== -->
-      <script src="assets/js/html5/html5shiv.min.js"></script>
-      <script src="assets/js/html5/respond.min.js"></script>
+    <script src="assets/js/html5/html5shiv.min.js"></script>
+    <script src="assets/js/html5/respond.min.js"></script>
 
     <link href="static/css/css2.css" rel="stylesheet">
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-M1F76MMXFL"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-M1F76MMXFL');
-</script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-M1F76MMXFL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-M1F76MMXFL');
+    </script>
 
     <style>
-        p{text-align:left;}
-        h3, h4{text-align:left;}
-        .team-area .info .contact {display: block;}
-        @media only screen and (max-width: 767px) {
-            h3 {font-size: 17px;}
-            h4 {font-size: 15px;}
-            p {font-size: 12px;}
+        p {
+            text-align: left;
         }
-        
+
+        h3, h4 {
+            text-align: left;
+        }
+
+        .team-area .info .contact {
+            display: block;
+        }
+
+        @media only screen and (max-width: 767px) {
+            h3 {
+                font-size: 17px;
+            }
+
+            h4 {
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    </style>
+    <style>
+        @media (min-width: 992px) {
+            .teamcol-lg-6 {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .team-padd {
+                padding: 0px;
+            }
+
+            .team-img {
+                width: 30%;
+            }
+
+                .team-img img {
+                    width: 100%;
+                }
+
+            .team-stud-img {
+                width: 17%;
+            }
+
+                .team-stud-img img {
+                    width: 100%;
+                }
+
+			.team-desc.prof {
+				margin-top: 80px;
+			}
+
+			.team-desc.stud {
+				margin-top: 50px;
+			}
+
+			.team-desc .pname {
+				font-size: 25px;
+			}
+
+			.choose-us-area.bg-gray.default-padding h4 {
+				font-size: 18px;
+			}
+        }
+
+        @media (max-width: 768px) {
+            .teamcol-md-6 {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+
+            .team-padd {
+                padding: 10px;
+            }
+
+            .team-img {
+                width: 100%;
+            }
+
+			.team-img img {
+				width: 80%;
+			}
+
+            .team-stud-img {
+                width: 100%;
+            }
+
+			.team-stud-img img {
+				width: 60%;
+			}
+
+            .team-desc {
+                width: 100%;
+                margin-top: 0px;
+            }
+			.team-desc.prof {
+				margin-top: 0px;
+			}
+
+			.team-desc.stud {
+				margin-top: 0px;
+			}
+
+			.team-desc .pname {
+				font-size: 22px;
+			}
+
+			.choose-us-area.bg-gray.default-padding h4 {
+				font-size: 14px;
+			}
+
+        }
     </style>
 </head>
-<style>
-    @media (min-width: 992px)
-    {
-        .teamcol-lg-6 {
-            -ms-flex: 0 0 50%;
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-    }
-
-    @media (min-width: 768px)
-    {
-        .teamcol-md-6 {
-            -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
-            max-width: 50%;
-        }
-    }
-</style>
-
-
-<body style="transition: auto"><div class="wrapper">
-
-
-<div class="breadcrumb-area text-center" style="padding: 13% 0px 10% 0px;">
-    <header id="home">
-        <nav class="navbar navbar-default attr-bg navbar-fixed white bootsnav on no-full bg_nav">
-            <div class="container">
-                <!-- Start Header Navigation -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand" href="index.html">
-                        <img src="static/picture/logo_ewha1.png" class="logo logo-display" alt="Logo" style="height:70px;">
-                        <img src="static/picture/logo_ewha1.png" class="logo logo-scrolled" alt="Logo" style="height:70px;">
-                    </a>
-                </div>
-                <!-- End Header Navigation -->
-
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="team.html">Team</a></li>
-                        <li><a href="publications.html">Publications</a></li>
-                        <li><a href="teaching.html">Teaching</a></li>
-                        <li>
-                            <a href="research.html">Research</a>
-                        </li> 
-                        <li><a href="project.html">Project</a></li>
-                        <li><a href="news.html">News</a></li>
-                        <!--<li><a href="board_list.php">Board</a></li>-->
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- Fixed BG -->
-    <div class="fixed-bg" style="background-image: url(static/image/index_bg2.png);background-size: 100%"></div>
-    <!-- Fixed BG -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-     <h1>Team</h1>
-                
-            </div>
-        </div>
-    </div>
-</div>
 
 
 
+<body style="transition: auto">
+    <div class="wrapper">
+        <div class="wrapper">
 
 
-<div class="team-area default-padding bottom-less">
-        <div class="container">
-            <div class="team-items text-center">
-                <div class="row">
-                    
-                 <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Faculty</h2>
-                        <div class="heading-divider"></div>
+            <div class="breadcrumb-area text-center" style="padding: 13% 0px 10% 0px;">
+                <header id="home">
+                    <nav class="navbar navbar-default attr-bg navbar-fixed white bootsnav on no-full bg_nav">
+                        <div class="container">
+                            <!-- Start Header Navigation -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                                    <i class="fa fa-bars"></i>
+                                </button>
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="static/picture/logo_ewha1.png" class="logo logo-display" alt="Logo" style="height:70px;">
+                                    <img src="static/picture/logo_ewha1.png" class="logo logo-scrolled" alt="Logo" style="height:70px;">
+                                </a>
+                            </div>
+                            <!-- End Header Navigation -->
+
+                            <div class="collapse navbar-collapse" id="navbar-menu">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="team.html">Team</a></li>
+                                    <li><a href="publications.html">Publications</a></li>
+                                    <li><a href="teaching.html">Teaching</a></li>
+                                    <li>
+                                        <a href="research.html">Research</a>
+                                    </li>
+                                    <li><a href="project.html">Project</a></li>
+                                    <li><a href="news.html">News</a></li>
+                                    <!--<li><a href="board_list.php">Board</a></li>-->
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <!-- Fixed BG -->
+                <div class="fixed-bg" style="background-image: url(static/image/index_bg2.png);background-size: 100%"></div>
+                <!-- Fixed BG -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2">
+                            <h1>Team</h1>
+
+                        </div>
                     </div>
                 </div>
+            </div>
 
-    <!-- Single Item -->
-                    <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;">
-                        <div class="wow fadeInUp" style="/* padding-top: 5%; */visibility: visible;animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;width: 30%;">
-                                <img src="static/image/강윤철1.png" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+
+
+
+
+            <div class="team-area team-padd default-padding bottom-less">
+                <div class="container">
+                    <div class="team-items text-center">
+                        <div class="row">
+
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center">
+                                    <h2>Faculty</h2>
+                                    <div class="heading-divider"></div>
+                                </div>
                             </div>
-                            <div class="info" style="float:left;display:inline;width: 70%;padding-left: 25px;padding-top: 10%;">
-                                <h3>Yuncheol Kang (강윤철)</h3>
-                                <div class="contact">  
-                                   <p>Director/Assistant Professor, started Mar 2020<br>Email: <a href="mailto:yckangat ewha dot ac dot kr">yckang at ewha dot ac dot kr</a><br>Sequential Decision Making, Business Analytics</p>
-                                   <h4>Education</h4>
-                                   <div class="contact">  
-                                      <p>Ph.D. Industrial Engneering at the Pennsylvania State University (2014) <br>
-                                         M.S. Industrial Engineering at Seoul National University (2004)<br>
-                                         B.S. Industrial Engineering at KAIST (2002)
-                                      </p>
+
+                            <!-- Single Item -->
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-img" style="float:left; position: relative;">
+                                        <img src="static/image/강윤철1.png" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc prof" style="float:left;display:inline;padding-left: 25px;">
+                                        <h4 class="pname" style="font-weight:bold;text-align:left;">Yuncheol Kang (강윤철)</h4>
+                                        <div class="contact">
+                                            <p>Director/Assistant Professor, started Mar 2020<br>Email: <a href="mailto:yckangat ewha dot ac dot kr">yckang at ewha dot ac dot kr</a><br>Sequential Decision Making, Business Analytics</p>
+                                            <h4 style="font-size:18px;font-weight:bold;text-align:left;">Education</h4>
+                                            <div class="contact">
+                                                <p>
+                                                    Ph.D. Industrial Engneering at the Pennsylvania State University (2014) <br>
+                                                    M.S. Industrial Engineering at Seoul National University (2004)<br>
+                                                    B.S. Industrial Engineering at KAIST (2002)
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <!-- End Single Item -->
+
+
                         </div>
                     </div>
-                    <!-- End Single Item -->
-                    
-                    
-                      <!-- Single Item -->
-                    
-                    <!-- End Single Item -->
-                    
-                    
                 </div>
             </div>
-          </div>
-            </div>
 
 
 
 
 
 
-    <div class="team-area bg-gray default-padding bottom-less">
-        <div class="container">
-            <div class="team-items text-center">
-                <div class="row" style="padding-top:50px;">
-                    
-                 <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Doctoral students</h2>
-                        <div class="heading-divider"></div>
+            <div class="team-area team-padd bg-gray default-padding bottom-less">
+                <div class="container">
+                    <div class="team-items text-center">
+                        <div class="row" style="padding-top:50px;">
+
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center">
+                                    <h2>Doctoral students</h2>
+                                    <div class="heading-divider"></div>
+                                </div>
+                            </div>
+
+                            <!-- Single Item -->
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="static/image/권소정.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Sojeong Kwon (권소정)</h3>
+                                        <div class="contact">
+                                            <p>Ph.D Student, started Sep 2020<br>Email: <a href="mailto:soho4997 at ewhain dot net">soho4997 at ewhain dot net</a><br>Deep Reinforcement Learning, Dynamic Pricing, Operations Research</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="static/image/김가영.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Gayoung Kim (김가영)</h3>
+                                        <div class="contact">
+                                            <p>Ph.D.Student, started Jan 2022<br>Email: <a href="mailto:bunoheb at ewhain dot net">bunoheb at ewhain dot net</a><br>Deep Learning, Reinforcement Learning, Recommendation system</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
                     </div>
                 </div>
+            </div>
 
-    <!-- Single Item -->
-                    <div class="single-item col-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;">
-                        <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;">
-                                <img src="static/image/권소정.jpg" alt="Thumb" style="width:130px;padding-top:20px;">
-                            </div>
-                            <div class="info" style="float:left; display:inline;width: 75%;">
-                                <h3>Sojeong Kwon (권소정)</h3>
-                                <div class="contact">  
-                                   <p>Ph.D Student, started Sep 2020<br>Email: <a href="mailto:soho4997 at ewhain dot net">soho4997 at ewhain dot net</a><br>Deep Reinforcement Learning, Dynamic Pricing, Operations Research</p>
+            <div class="team-area default-padding bottom-less">
+                <div class="container">
+                    <div class="team-items text-center">
+                        <div class="row" style="padding-top:50px;">
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center">
+                                    <h2>Master’s students</h2>
+                                    <div class="heading-divider"></div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
 
 
 
- <!-- Single Item -->
-                    <div class="single-item col-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;">
-                        <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;">
-                                <img src="static/image/김가영.jpg" alt="Thumb" style="width:130px;padding-top:20px;">
-                            </div>
-                            <div class="info" style="float:left; display:inline;width: 75%;">
-                                <h3>Gayoung Kim (김가영)</h3>
-                                <div class="contact">
-                                   <p>Ph.D.Student, started Jan 2022<br>Email: <a href="mailto:bunoheb at ewhain dot net">bunoheb at ewhain dot net</a><br>Deep Learning, Reinforcement Learning, Recommendation system</p>
+                            <!-- Single Item -->
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="static/image/이미희.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Mihee Lee (이미희)</h3>
+                                        <div class="contact">
+                                            <p>Master Student, started Dec 2021<br>Email: <a href="mailto:mihee.lee at ewhain dot net">mihee.lee at ewhain dot net</a><br>Machine Learning, Deep Learning, Recommendation System, Reinforcement Learning</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="static/image/이도연.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Doyeon Lee (이도연)</h3>
+                                        <div class="contact">
+                                            <p>Master Student, started Jul 2022<br>Email: <a href="mailto:dyan.lee@ewhain.net">dyan dot lee at ewhain dot net</a><br>Recommendation System, Reinforcement Learning, Sequential Decision Making</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="static/image/박건희.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Gunhee Park (박건희)</h3>
+                                        <div class="contact">
+                                            <p>Master Student, started Sep 2022<br>Email: <a href="mailto:califppy24@ewhain.net">califppy24 at ewhain dot net</a><br>Machine Learning, Causal Inference, Recommendation System, Reinforcement Learning</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="static/image/류명진.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Myoungjin Ryu (류명진)</h3>
+                                        <div class="contact">
+                                            <p>Master Student, started Jan 2023<br>Email: <a href="mailto:califppy24@ewhain.net">ryumyoungjin at ewhain dot net</a><br>Machine Learning, Reinforcement Learning, Deep Learning</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="static/image/신미향.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Meixiang Shen (신미향)</h3>
+                                        <div class="contact">
+                                            <p>Master Student, started Apr 2023<br>Email: <a href="mailto:sini@ewhain.net">sini at ewhain dot net</a><br>Machine Learning, Deep Learning, Computer Vision</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- End Single Item -->
+
+
+
                         </div>
                     </div>
-                    <!-- End Single Item -->
                 </div>
             </div>
-          </div>
-            </div>
-
-    <div class="team-area default-padding bottom-less">
-        <div class="container">
-            <div class="team-items text-center">
-                <div class="row" style="padding-top:50px;">
-                  <div class="col-lg-8 offset-lg-2">
-                    <div class="site-heading text-center">
-                        <h2>Master’s students</h2>
-                        <div class="heading-divider"></div>
-                    </div>
-                </div>   
 
 
-                                       
- <!-- Single Item -->
-                    <div class="single-item col-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);">
-                        <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;">
-                                <img src="static/image/이미희.jpg" alt="Thumb" style="width:130px;padding-top:20px;">
-                            </div>
-                            <div class="info" style="float:left; display:inline;width: 75%;">
-                                <h3>Mihee Lee (이미희)</h3>
-                                <div class="contact">
-                                   <p>Master Student, started Dec 2021<br>Email: <a href="mailto:mihee.lee at ewhain dot net">mihee.lee at ewhain dot net</a><br>Machine Learning, Deep Learning, Recommendation System, Reinforcement Learning</p>
-                                </div>
-                            </div>
+            <div class="choose-us-area bg-gray default-padding" style="background-color:#f3f7fda8;">
+                <div class="container">
+                    <div class="row align-center" style="padding-top:100px;">
+                        <div class="col-lg-12 wow fadeInLeft info" style="visibility: hidden; animation-name: none;">
+                            <h2><strong style="color: #4154f1;">Alumni</strong> </h2>
+                            <ul style="margin-left: -30px;">
+                                <li>
+                                    <h4 >(M.S, 2023) Jeongyeon Woo (우정연), Bora Nam (남보라), Jiyoon Kim (김지윤), Jing Liu (유정), Hong Jin (김홍)</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2022) Julie Maeng (맹주리) /BISTelligence</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2022) Huijin Jo (조희진) /Dongwha Group</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2022) Sojeong Kwon (권소정) /subsequently, 이화여자대학교 박사과정</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2021) Danbi Kim (김단비) /KB Kookmin Bank</h4>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- End Single Item -->                
-                    
-                        
-                    
- <!-- Single Item -->
-                    <div class="single-item col-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);">
-                        <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;">
-                                <img src="static/image/이도연.jpg" alt="Thumb" style="width:130px;padding-top:20px;">
-                            </div>
-                            <div class="info" style="float:left; display:inline;width: 75%;">
-                                <h3>Doyeon Lee (이도연)</h3>
-                                <div class="contact">
-                                   <p>Master Student, started Jul 2022<br>Email: <a href="mailto:dyan.lee@ewhain.net">dyan dot lee at ewhain dot net</a><br>Recommendation System, Reinforcement Learning, Sequential Decision Making</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    
-                    
-                    
-                     <!-- Single Item -->
-                    <div class="single-item col-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);">
-                        <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;">
-                                <img src="static/image/박건희.jpg" alt="Thumb" style="width:130px;padding-top:20px;">
-                            </div>
-                            <div class="info" style="float:left; display:inline;width: 75%;">
-                                <h3>Gunhee Park (박건희)</h3>
-                                <div class="contact">
-                                   <p>Master Student, started Sep 2022<br>Email: <a href="mailto:califppy24@ewhain.net">califppy24 at ewhain dot net</a><br>Machine Learning, Causal Inference, Recommendation System, Reinforcement Learning</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    
-                                 <!-- Single Item -->
-                    <div class="single-item col-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);">
-                        <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;">
-                                <img src="static/image/류명진.jpg" alt="Thumb" style="width:130px;padding-top:20px;">
-                            </div>
-                            <div class="info" style="float:left; display:inline;width: 75%;">
-                                <h3>Myoungjin Ryu (류명진)</h3>
-                                <div class="contact">
-                                   <p>Master Student, started Jan 2023<br>Email: <a href="mailto:califppy24@ewhain.net">ryumyoungjin at ewhain dot net</a><br>Machine Learning, Reinforcement Learning,<br> Deep Learning</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    
-                    
-                     <!-- Single Item -->
-                    <div class="single-item col-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);">
-                        <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
-                            <div class="thumb" style="float:left; position: relative;">
-                                <img src="static/image/신미향.jpg" alt="Thumb" style="width:130px;padding-top:20px;">
-                            </div>
-                            <div class="info" style="float:left; display:inline;width: 75%;">
-                                <h3>Meixiang Shen (신미향)</h3>
-                                <div class="contact">
-                                   <p>Master Student, started Apr 2023<br>Email: <a href="mailto:sini@ewhain.net">sini at ewhain dot net</a><br>Machine Learning, Deep Learning, Computer Vision</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                    
-                    
-                    
                 </div>
             </div>
-   </div>
-    </div>
 
 
 
-    <div class="choose-us-area bg-gray default-padding" style="background-color:#f3f7fda8;">
-        <div class="container">
-            <div class="row align-center" style="padding-top:100px;">
-                <div class="col-lg-12 wow fadeInLeft info" style="visibility: visible; animation-name: fadeInLeft;">
-                    <h2><strong style="color: #4154f1;">Alumni</strong> </h2>
-                    <ul>
-                        <li>
-                            <h4>(M.S, 2023) Jeongyeon Woo (우정연), Bora Nam (남보라), Jiyoon Kim (김지윤), Jing Liu (유정), Hong Jin (김홍)</h4>
-                        </li>
-                        <li>
-                            <h4>(M.S, 2022) Julie Maeng (맹주리) /BISTelligence</h4>
-                        </li>
-                        <li>
-                            <h4>(M.S, 2022) Huijin Jo (조희진) /Dongwha Group</h4>
-                        </li>
-                        <li>
-                            <h4>(M.S, 2022) Sojeong Kwon (권소정) /subsequently, 이화여자대학교 박사과정</h4>
-                        </li>
-                        <li>
-                            <h4>(M.S, 2021) Danbi Kim (김단비) /KB Kookmin Bank</h4>
-                        </li>
-                    </ul>
+
+
+
+            <!-- Start Footer Bottom -->
+            <div class="footer-bottom" style="background-color: #00061c;padding-top:20px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p style="color: #ffffff;line-height: 17px;font-size: 12px;">
+                                © 2022 AAPL lab. Site made with <a target="_blank" href="https://jekyllrb.com/" style="color: #c0c6f8;font-weight: 500;">Jekyll</a>; <a target="_blank" style="color: #c0c6f8;font-weight: 500;" href="https://bigdataewha.github.io/aboutwebsite.html">copy and modify it for your own research group. </a>
+                                <br>We are part of the <a target="_blank" href="http://www.ewha.ac.kr/ewha/index.do" style="color: #c0c6f8;font-weight: 500;">Big data analytics of Ewha Womans University</a> at <a target="_blank" style="color: #c0c6f8;font-weight: 500;" href="https://cms.ewha.ac.kr/user/indexMain.action?siteId=bigdata">Ewha Womans University.</a>
+                            </p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p style="color: #ffffff;line-height: 17px;font-size: 12px;">
+                                Contact: 03760 서울특별시 서대문구 이화여대길52 이화신세계관 419호
+                                <br>Seoul, Republic of Korea <a target="_blank" href="https://www.google.nl/maps/place/Ewha+Womans+University/@37.561863,126.9446452,17z/data=!3m1!4b1!4m5!3m4!1s0x357c988459902d69:0xf2536b3850f9d80d!8m2!3d37.5618588!4d126.9468339?hl=en&amp;shorturl=1" style="color: #c0c6f8;font-weight: 500;">(Maps)</a>
+                            </p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
+            <!-- End Footer Bottom -->
+            <!-- End Footer -->
+            <!-- jQuery Frameworks
+            ============================================= -->
+            <script src="static/js/jquery-1.12.4.min.js"></script>
+            <script src="static/js/popper.min.js"></script>
+            <script src="static/js/bootstrap.min.js"></script>
+            <script src="static/js/equal-height.min.js"></script>
+            <script src="static/js/jquery.appear.js"></script>
+            <script src="static/js/jquery.easing.min.js"></script>
+            <script src="static/js/jquery.magnific-popup.min.js"></script>
+            <script src="static/js/modernizr.custom.13711.js"></script>
+            <script src="static/js/owl.carousel.min.js"></script>
+            <script src="static/js/wow.min.js"></script>
+            <script src="static/js/progress-bar.min.js"></script>
+            <script src="static/js/isotope.pkgd.min.js"></script>
+            <script src="static/js/imagesloaded.pkgd.min.js"></script>
+            <script src="static/js/count-to.js"></script>
+            <script src="static/js/YTPlayer.min.js"></script>
+            <script src="static/js/progresscircle.js"></script>
+            <script src="static/js/bootsnav.js"></script>
+            <script src="static/js/main.js"></script>
+            <script>
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > $(".navbar").height()) {
+                        if (!$(".navbar").hasClass('bg_nav')) {
+                            $(".navbar").addClass('bg_nav');
+                        }
+                    } else {
+                        $(".navbar").removeClass('bg_nav');
+                    }
+                })
+            </script>
+
+
+
+
+
         </div>
     </div>
-
-        
-    
-        
-    
-
- <!-- Start Footer Bottom -->
-        <div class="footer-bottom" style="background-color: #00061c;padding-top:20px;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p style="color: #ffffff;line-height: 17px;font-size: 12px;">© 2022 AAPL lab. Site made with <a target="_blank" href="https://jekyllrb.com/" style="color: #c0c6f8;font-weight: 500;">Jekyll</a>; <a target="_blank" style="color: #c0c6f8;font-weight: 500;" href="https://bigdataewha.github.io/aboutwebsite.html">copy and modify it for your own research group. </a>
-                        <br>We are part of the <a target="_blank" href="http://www.ewha.ac.kr/ewha/index.do" style="color: #c0c6f8;font-weight: 500;">Big data analytics of Ewha Womans University</a> at <a target="_blank" style="color: #c0c6f8;font-weight: 500;" href="https://cms.ewha.ac.kr/user/indexMain.action?siteId=bigdata">Ewha Womans University.</a></p>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <p style="color: #ffffff;line-height: 17px;font-size: 12px;">Contact: 03760 서울특별시 서대문구 이화여대길52 이화신세계관 419호
-                        <br>Seoul, Republic of Korea <a target="_blank" href="https://www.google.nl/maps/place/Ewha+Womans+University/@37.561863,126.9446452,17z/data=!3m1!4b1!4m5!3m4!1s0x357c988459902d69:0xf2536b3850f9d80d!8m2!3d37.5618588!4d126.9468339?hl=en&amp;shorturl=1" style="color: #c0c6f8;font-weight: 500;">(Maps)</a></p>
-                </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- End Footer Bottom -->
-    
-    <!-- End Footer -->
-
-    <!-- jQuery Frameworks
-    ============================================= -->
-    <script src="static/js/jquery-1.12.4.min.js"></script>
-    <script src="static/js/popper.min.js"></script>
-    <script src="static/js/bootstrap.min.js"></script>
-    <script src="static/js/equal-height.min.js"></script>
-    <script src="static/js/jquery.appear.js"></script>
-    <script src="static/js/jquery.easing.min.js"></script>
-    <script src="static/js/jquery.magnific-popup.min.js"></script>
-    <script src="static/js/modernizr.custom.13711.js"></script>
-    <script src="static/js/owl.carousel.min.js"></script>
-    <script src="static/js/wow.min.js"></script>
-    <script src="static/js/progress-bar.min.js"></script>
-    <script src="static/js/isotope.pkgd.min.js"></script>
-    <script src="static/js/imagesloaded.pkgd.min.js"></script>
-    <script src="static/js/count-to.js"></script>
-    <script src="static/js/YTPlayer.min.js"></script>
-    <script src="static/js/progresscircle.js"></script>
-    <script src="static/js/bootsnav.js"></script>
-    <script src="static/js/main.js"></script>
-    <script>
-        $(window).scroll(function (){
-            if($(this).scrollTop() > $(".navbar").height()){
-                if(!$(".navbar").hasClass('bg_nav')){
-                    $(".navbar").addClass('bg_nav');
-                }
-            }else{
-                $(".navbar").removeClass('bg_nav');
-            }
-        })
-    </script>
-
-
-
-
-
-</div></body></html>
+</body>
+</html>
