@@ -745,9 +745,9 @@ input {
 }
 
 .btn-theme.border:hover {
-  background-color: #4154f1;
+  background-color: #A7D9A3;
   color: #ffffff !important;
-  border: 2px solid #4154f1;
+  border: 2px solid #A7D9A3;
 }
 
 .btn-theme.border.orange:hover {
@@ -763,9 +763,9 @@ input {
 }
 
 .orange .btn-theme.border:hover {
-  background-color: #FF5621;
+  background-color: #A7D9A3;
   color: #ffffff !important;
-  border: 2px solid #FF5621;
+  border: 2px solid #A7D9A3;
 }
 
 .cornflower-blue .btn-theme.border:hover {
@@ -775,15 +775,15 @@ input {
 }
 
 .btn-theme.border:hover {
-  background-color: #4154f1;
+  background-color: #A7D9A3;
   color: #ffffff !important;
-  border: 2px solid #4154f1;
+  border: 2px solid #A7D9A3;
 }
 
 .btn-theme.effect:hover, 
  .btn-theme.effect:focus {
-  background: #4154f1 none repeat scroll 0 0;
-  border: 2px solid #4154f1;
+  background: #A7D9A3 none repeat scroll 0 0;
+  border: 2px solid #A7D9A3;
   color: #ffffff;
 }
 
@@ -1045,7 +1045,7 @@ nav.bootsnav.navbar-default.info-topbar.active-full ul li a {
 .attr-nav > a.btn-theme.effect:hover, 
 .attr-nav > a.btn-theme.effect, 
 .attr-nav > a.btn-theme.effect:focus {
-  background: #4154f1 none repeat scroll 0 0;
+  background: #A7D9A3 none repeat scroll 0 0;
   border: 2px solid #4154f1;
   color: #ffffff !important;
 }
@@ -4825,7 +4825,7 @@ i.fas.fa-envelope-open {
 }
 
 .blog-items .info h4 a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 .eastern-blue .blog-items .info h4 a:hover {
@@ -4922,7 +4922,7 @@ i.fas.fa-envelope-open {
 }
 
 .blog-items .tags a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 .eastern-blue .blog-items .tags a:hover {
@@ -5059,7 +5059,7 @@ i.fas.fa-envelope-open {
 }
 
 .blog-area .sidebar .sidebar-item li a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 .blog-area .sidebar .sidebar-item.category li a span {
@@ -5119,7 +5119,7 @@ i.fas.fa-envelope-open {
 }
 
 .sidebar-item.recent-post li a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 .color-yellow .sidebar-item.recent-post li a:hover {
@@ -5310,7 +5310,7 @@ i.fas.fa-envelope-open {
 }
 
 .sidebar-item.tags ul li a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 
@@ -5468,7 +5468,7 @@ i.fas.fa-envelope-open {
 }
 
 .blog-area.single .post-pagi-area a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 .blog-area.single.color-yellow .post-pagi-area a:hover {
@@ -5598,7 +5598,7 @@ i.fas.fa-envelope-open {
 }
 
 .comments-info a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 .color-yellow .comments-info a:hover {
@@ -5654,7 +5654,7 @@ i.fas.fa-envelope-open {
 
 .comments-form button:hover {
   color: #ffffff;
-  background-color: #4154f1;
+  background-color: #A7D9A3;
   border: 1px solid transparent;
 }
 

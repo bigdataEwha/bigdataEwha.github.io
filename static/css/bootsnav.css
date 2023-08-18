@@ -83,7 +83,7 @@ nav.navbar.bootsnav.nav-box .navbar-brand {
   padding: 5px 0;
   margin-top: 0;
   font-size: 14px;
-  text-align: left;
+  text-align: center;
   list-style: none;
   background-color: #fff;
   -webkit-background-clip: padding-box;
@@ -505,7 +505,7 @@ nav.bootsnav.navbar-sidebar.bg-dark ul.nav li.dropdown h6 {
 }
 
 .attr-nav ul.cart-list li.total a:hover {
-  background: #4154f1 none repeat scroll 0 0 !important;
+  background: #A7D9A3 none repeat scroll 0 0 !important;
   color: #ffffff !important;
 }
 
@@ -1048,7 +1048,7 @@ body.on-side .body-overlay {
 }
 
 .navbar .side .widget li a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:hover::after {
@@ -1081,7 +1081,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
 }
 
 .navbar .side .widget.social li a:hover {
-  background: #4154f1 none repeat scroll 0 0;
+  background: #A7D9A3 none repeat scroll 0 0;
   color: #ffffff;
 }
 
@@ -1265,7 +1265,7 @@ nav.navbar.bootsnav.color-yellow .share.dark ul > li > a {
 }
 
 nav.navbar.bootsnav .share ul > li > a:hover {
-  color: #4154f1;
+  color: #A7D9A3;
 }
 
 nav.navbar.bootsnav.color-yellow .share ul > li > a:hover {
@@ -1576,7 +1576,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #4154f1;
+    color: #A7D9A3;
   }
 
   .eastern-blue nav.navbar.bootsnav ul.nav > li > a:hover {
@@ -1662,13 +1662,13 @@ nav.navbar.bootsnav {
     font-size: 14px;
     margin-bottom: 0;
     padding: 10px 15px;
-    text-align: left;
+    text-align: center;
     text-transform: capitalize;
     width: 100%;
   }
 
   nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
-    color: #4154f1;
+    color: #A7D9A3;
   }
 
   nav.navbar.bootsnav.color-yellow ul.navbar-right li.dropdown ul.dropdown-menu li a:hover {
@@ -1676,7 +1676,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
-    color: #4154f1;
+    color: #A7D9A3;
   }
 
   nav.navbar.bootsnav.color-yellow ul.navbar-left li.dropdown ul.dropdown-menu li a:hover {
@@ -1758,7 +1758,7 @@ nav.navbar.bootsnav {
     font-weight: 600;
     margin-bottom: 0;
     padding: 8px 0;
-    text-align: left;
+    text-align: center;
     text-transform: capitalize;
     width: 100%;
   }
@@ -1768,7 +1768,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
-    color: #4154f1;
+    color: #A7D9A3;
   }
 
   nav.navbar.bootsnav.color-yellow ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover {
@@ -1964,7 +1964,7 @@ nav.navbar.bootsnav {
   }
 
   nav.bootsnav.brand-center .navbar-collapse .col-half.right {
-    text-align: left;
+    text-align: center;
     padding-left: 100px;
   }
 
@@ -1979,7 +1979,7 @@ nav.navbar.bootsnav {
   }
 
   nav.bootsnav.brand-center.center-side .navbar-collapse .col-half.left {
-    text-align: left;
+    text-align: center;
     padding-right: 100px;
   }
 
@@ -2076,7 +2076,7 @@ nav.navbar.bootsnav {
   }
 
   nav.bootsnav.navbar-sidebar ul.nav > li > a:hover {
-    color: #4154f1;
+    color: #A7D9A3;
   }
 
   nav.bootsnav.navbar-sidebar.color-yellow ul.nav > li > a:hover {
@@ -2411,7 +2411,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav ul.nav li.dropdown > ul.dropdown-menu li:hover > a {
     background-color: transparent !important;
-    color: #4154f1 !important;
+    color: #A7D9A3 !important;
   }
 
   nav.navbar.bootsnav.color-yellow ul.nav li.dropdown > ul.dropdown-menu li:hover > a {
@@ -2443,6 +2443,7 @@ nav.navbar.bootsnav {
   nav.navbar.bootsnav .navbar-collapse {
     border: none;
     margin-bottom: 0;
+text-align: center;
   }
 
   nav.navbar.bootsnav.no-full .navbar-collapse {
@@ -2452,12 +2453,13 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav .navbar-collapse.collapse {
     display: none !important;
+
   }
 
   nav.navbar.bootsnav .navbar-collapse.collapse.in,
   nav.navbar.bootsnav .navbar-collapse.collapse.show {
     display: block !important;
-background-color: #000829;
+	background-color: #00462A;
   }
 
   nav.navbar.bootsnav .navbar-nav {
