@@ -106,101 +106,36 @@
 
 
 
-    <title>Document</title>
-
-    <link rel="stylesheet" type="text/css" href="test.css">
-
-
-
-
-                    <body>
-
-    <section class="main">
-
-        <h1 class="d-none">게시판</h1>
-
-            <div class="board">
-
-                <table class="table">
-
-                    <thead class="thead">
-
-                        <tr>
-
-                            <td>번호</td>
-
-                            <td>제목</td>
-
-                            <td>글쓴이</td>
-
-                            <td>작성일</td>
-
-                            <td>조회수</td>
-
-                        </tr>
-
-                    </thead>
-
-                    <tbody class="tbody">
-
-                        <tr>
-
-                            <td>1</td>
-
-                            <td><a href="">제모옥</a></td>
-
-                            <td>작성자</td>
-
-                            <td>2020-02-02</td>
-
-                            <td>1</td>
-
-                        </tr>
-
-                        <tbody class="tbody">
-
-                            <tr>
-
-                                <td>2</td>
-
-                                <td><a href="">제모옥</a></td>
-
-                                <td>작성자</td>
-
-                                <td>2020-02-02</td>
-
-                                <td>2</td>
-
-                            </tr>
-
-                        </tbody>
-
-                    </tbody>
-
-                </table>
-
-                <div class="page-wrap">
-
-                    <ul class="page-nation">
-
-                        <li><a href="/board/list?p=1">1</a></li>
-
-                        <li><a href="/board/list?p=2">2</a></li>
-
-                        <li><a href="/board/list?p=3">3</a></li>
-
-                        <li><a href="/board/list?p=4">4</a></li>
-
-                        <li><a href="/board/list?p=5">5</a></li>
-
-                    </ul>
-
-                </div>
-
+<head>
+<meta charset="UTF-8">
+<title>게시판</title>
+ 
+</head>
+<body>
+  <?$board_id=$_GET['board_id'];?>
+    <div id="board_write">
+        <h4>글을 작성하는 공간입니다.</h4>
+            <div id="write_area">
+                <form enctype="multipart/form-data" action="write_ok.php?board_id=<?echo $board_id;?>" method="post">
+                    <div id="in_title">
+                        <textarea name="title" id="utitle" rows="1" cols="55" placeholder="제목" maxlength="100" required></textarea>
+                    </div>
+ 
+                    <div class="wi_line"></div>
+                    <div id="in_content">
+                        <textarea name="content" id="ucontent" placeholder="내용" required></textarea>
+                    </div>
+ 
+                      <input type="file" name="SelectFile" />
+ 
+ 
+                    <div class="bt_se">
+                        <button type="submit">글 작성</button>
+                    </div>
+                </form>
             </div>
-
-    </section>
-
+        </div>
+    </body>
 
  
 
