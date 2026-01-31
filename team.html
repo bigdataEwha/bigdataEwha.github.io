@@ -47,30 +47,117 @@
     </script-->
 
     <style>
-        p {
-            text-align: left;
+        p { text-align: left; }
+        h3, h4 { text-align: left; }
+        .team-area .info .contact { display: block; }
+
+        /* 섹션 제목 가운데 */
+        .team-area .site-heading,
+        .team-area .site-heading h2 {
+        text-align: center !important;
+        }
+        .team-area .site-heading .heading-divider{
+        margin-left: auto !important;
+        margin-right: auto !important;
         }
 
-        h3, h4 {
-            text-align: left;
+        /* 2단 카드 그리드 */
+        .team-items.two-col .row{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 36px;
+        margin: 0;
+        align-items: stretch;
         }
 
-        .team-area .info .contact {
-            display: block;
+        /* bootstrap col 영향 제거 */
+        .team-items.two-col .row > .col-md-6,
+        .team-items.two-col .row > .teamcol-lg-6{
+        width: auto;
+        max-width: none;
+        flex: none;
+        padding: 0;
         }
 
-        @media only screen and (max-width: 767px) {
-            h3 {
-                font-size: 17px;
-            }
+        /* 섹션 제목은 2칸 전체 차지 */
+        .team-items.two-col .row > .col-lg-8.offset-lg-2{
+        grid-column: 1 / -1;
+        }
 
-            h4 {
-                font-size: 15px;
-            }
+        /* 카드 */
+        .team-area .team-items.two-col .single-item{
+        padding: 34px;
+        box-sizing: border-box;
+        background: #fff;
+        overflow: hidden;
+        height: 100%;
+        }
 
-            p {
-                font-size: 12px;
-            }
+        /* 카드 내부: 사진 | 설명 */
+        .team-area .team-items.two-col .single-item .wow{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: center;   /* 사진이 위에 붙지 않게 */
+        height: 100%;
+        }
+
+        /* float 제거 */
+        .team-area .team-items.two-col .thumb,
+        .team-area .team-items.two-col .info{
+        float: none !important;
+        }
+
+        /* 사진 영역 (왼쪽 크게) */
+        .team-area .team-items.two-col .thumb{
+        flex: 0 0 42%;     /* 40~50% 사이에서 취향 조절 */
+        align-self: center;
+        }
+
+        /* 사진 */
+        .team-area .team-items.two-col .thumb img{
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+        }
+
+        /* 설명 영역 */
+        .team-area .team-items.two-col .info{
+        flex: 1;
+        min-width: 0;
+        }
+        .team-area .team-items.two-col .info .contact p{
+        width: auto !important;
+        max-width: 100% !important;
+        line-height: 1.7;
+        }
+
+        /* 학생 two-col만 화면 폭 확장 */
+        #students-two-col{
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        }
+        #students-two-col .row{
+        max-width: 1380px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+
+        /* 모바일 */
+        @media (max-width: 767px){
+        .team-items.two-col .row{
+            grid-template-columns: 1fr;
+        }
+        .team-area .team-items.two-col .single-item .wow{
+            flex-direction: column;
+        }
+        h3 { font-size: 17px; }
+        h4 { font-size: 15px; }
+        p  { font-size: 12px; }
         }
     </style>
     <style>
@@ -331,7 +418,7 @@
 
             <div id="team-doc" class="team-area team-padd bg-gray default-padding bottom-less doc" style="margin-top:50px;">
                 <div class="container">
-                    <div class="team-items text-center">
+                    <div class="team-items text-center two-col" id="students-two-col">
                         <div class="row" style="padding-top:100px;">
 
                             <div class="col-lg-8 offset-lg-2">
@@ -426,7 +513,7 @@
 
             <div class="team-area team-padd default-padding bottom-less">
                 <div class="container">
-                    <div class="team-items text-center">
+                    <div class="team-items text-center two-col" id="students-two-col">
                         <div class="row" style="padding-top:100px;">
                             <div class="col-lg-8 offset-lg-2">
                                 <div class="site-heading text-center">
@@ -771,7 +858,7 @@
 
 <div class="team-area default-padding bottom-less">
         <div class="container">
-            <div class="team-items text-center">
+            <div class="team-items text-center two-col" id="students-two-col">
                 <div class="row" style="padding-top:100px;">
                   <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
