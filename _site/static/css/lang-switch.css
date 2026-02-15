@@ -1,0 +1,38 @@
+/* 언어 버튼이 차지하는 만큼 메뉴에 오른쪽 여백 */
+@media (min-width: 768px){
+  #navbar-menu .navbar-nav.navbar-right{
+    margin-right: 90px;
+  }
+}
+
+.lang-switch{
+  position:absolute;
+  right:15px;
+  top:18px;
+  display:flex;
+  gap:6px;
+  z-index:9999;
+}
+
+.lang-btn{
+  display:inline-block;
+  padding:6px 10px;
+  border-radius:6px;
+  font-weight:700;
+  font-size:12px;
+  line-height:1;
+  text-decoration:none;
+  border:1px solid rgba(255,255,255,.7);
+  color:#fff;
+  background:transparent;
+}
+
+.lang-btn.active{
+  background:#ffc107;
+  border-color:#ffc107;
+  color:#1b1b1b;
+}
+
+@media (max-width: 767px){
+  .lang-switch{ top:14px; right:12px; }
+}

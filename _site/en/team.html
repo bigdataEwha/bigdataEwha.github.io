@@ -1,0 +1,1069 @@
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths" style=""><head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="/static/image/logo_ewha100.png" />
+    <meta name="description" content="AAPL Lab">
+
+    <!-- ========== Page Title ========== -->
+    <title>AAPL Lab</title>
+    <link rel="shortcut icon" href="/logo.ico"/>
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/themify-icons.css" rel="stylesheet">
+    <link href="/static/css/flaticon-set.css" rel="stylesheet">
+    <link href="/static/css/magnific-popup.css" rel="stylesheet">
+    <link href="/static/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="/static/css/owl.theme.default.min.css" rel="stylesheet">
+    <link href="/static/css/animate.css" rel="stylesheet">
+    <link href="/static/css/bootsnav.css" rel="stylesheet">
+    <link href="/static/css/style2.css" rel="stylesheet">
+    <link href="/static/css/responsive.css" rel="stylesheet">
+    <link href="/static/css/css2.css" rel="stylesheet">
+    <link href="/static/css/lang-switch.css" rel="stylesheet">
+    <!-- ========== End Stylesheet ========== -->
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BFBH2DC02W"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-BFBH2DC02W');
+    </script>
+    
+    <!-- (구 GA 필요 없으면 삭제)
+        Global site tag (gtag.js) - Google Analytics >
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M1F76MMXFL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M1F76MMXFL');
+    </script> -->
+
+    <style>
+        p { text-align: left; }
+        h3, h4 { text-align: left; }
+        .team-area .info .contact { display: block; }
+
+        /* 섹션 제목 가운데 */
+        .team-area .site-heading,
+        .team-area .site-heading h2 {
+        text-align: center !important;
+        }
+        .team-area .site-heading .heading-divider{
+        margin-left: auto !important;
+        margin-right: auto !important;
+        }
+
+        /* 2단 카드 그리드 */
+        .team-items.two-col .row{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 36px;
+        margin: 0;
+        align-items: stretch;
+        }
+
+        /* bootstrap col 영향 제거 */
+        .team-items.two-col .row > .col-md-6,
+        .team-items.two-col .row > .teamcol-lg-6{
+        width: auto;
+        max-width: none;
+        flex: none;
+        padding: 0;
+        }
+
+        /* 섹션 제목은 2칸 전체 차지 */
+        .team-items.two-col .row > .col-lg-8.offset-lg-2{
+        grid-column: 1 / -1;
+        }
+
+        /* 카드 */
+        .team-area .team-items.two-col .single-item{
+        padding: 34px;
+        box-sizing: border-box;
+        background: #fff;
+        overflow: hidden;
+        height: 100%;
+        }
+
+        /* 카드 내부: 사진 | 설명 */
+        .team-area .team-items.two-col .single-item .wow{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        align-items: center;   /* 사진이 위에 붙지 않게 */
+        height: 100%;
+        }
+
+        /* float 제거 */
+        .team-area .team-items.two-col .thumb,
+        .team-area .team-items.two-col .info{
+        float: none !important;
+        }
+
+        /* 사진 영역 (왼쪽 크게) */
+        .team-area .team-items.two-col .thumb{
+        flex: 0 0 42%;     /* 40~50% 사이에서 취향 조절 */
+        align-self: center;
+        }
+
+        /* 사진 */
+        .team-area .team-items.two-col .thumb img{
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain;
+        }
+
+        /* 설명 영역 */
+        .team-area .team-items.two-col .info{
+        flex: 1;
+        min-width: 0;
+        }
+        .team-area .team-items.two-col .info .contact p{
+        width: auto !important;
+        max-width: 100% !important;
+        line-height: 1.7;
+        }
+
+        /* 학생 two-col만 화면 폭 확장 */
+        #students-two-col{
+        width: 100vw;
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        }
+        #students-two-col .row{
+        max-width: 1380px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+        }
+
+        /* 모바일 */
+        @media (max-width: 767px){
+        .team-items.two-col .row{
+            grid-template-columns: 1fr;
+        }
+        .team-area .team-items.two-col .single-item .wow{
+            flex-direction: column;
+        }
+        h3 { font-size: 17px; }
+        h4 { font-size: 15px; }
+        p  { font-size: 12px; }
+        }
+    </style>
+    <style>
+        @media (min-width: 992px) {
+            .teamcol-lg-6 {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+	        .team-area .info .contact p {
+				width: 760px;
+			}
+
+			 #team-doc {
+			 	margin-top: 0px;
+			 }
+
+            .team-padd {
+                padding: 0px;
+            }
+
+            .team-img {
+                width: 25%;
+            }
+
+                .team-img img {
+                    width: 100%;
+                }
+
+            .team-stud-img {
+                width: 17%;
+            }
+
+                .team-stud-img img {
+                    width: 100%;
+                }
+
+			.team-desc.prof {
+				margin-top: 80px;
+			}
+
+			.team-desc.stud {
+				margin-top: 50px;
+			}
+
+			.team-desc .pname {
+				font-size: 25px;
+			}
+
+			.choose-us-area.bg-gray.default-padding h4 {
+				font-size: 18px;
+			}
+        }
+
+        @media (max-width: 768px) {
+            .teamcol-md-6 {
+                -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
+
+			 #team-doc {
+			 	margin-top: 690px;
+			 }
+
+            .team-padd {
+                padding: 10px;
+            }
+
+            .team-img {
+                width: 100%;
+            }
+
+			.team-img img {
+				width: 80%;
+			}
+
+            .team-stud-img {
+                width: 100%;
+            }
+
+			.team-stud-img img {
+				width: 60%;
+			}
+
+            .team-desc {
+                width: 100%;
+                margin-top: 0px;
+            }
+			.team-desc.prof {
+				margin-top: 0px;
+			}
+
+			.team-desc.stud {
+				margin-top: 0px;
+			}
+
+			.team-desc .pname {
+				font-size: 22px;
+			}
+
+			.choose-us-area.bg-gray.default-padding h4 {
+				font-size: 14px;
+			}
+
+        }
+    </style>
+<style data-emotion="css" data-s=""></style><style>.extraClassAspect { -webkit-transform:scaleX(1.33)!important; }	.extraClassCrop { -webkit-transform:scale(1.33)!important; }</style></head>
+
+
+<body style="transition: auto 0s ease 0s;"><div class="wrapper"><div class="wrapper">
+    <header id="home">
+  <nav class="navbar navbar-default attr-bg navbar-fixed white no-background bootsnav" style="background-color: #00462A">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" style="color: white;">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <a class="navbar-brand" href="/en/index.html">
+          <img src="/static/picture/logo_ewha1.png" class="logo logo-display" alt="Logo" style="height:70px;">
+          <img src="/static/picture/logo_ewha1.png" class="logo logo-scrolled" alt="Logo" style="height:70px;">
+        </a>
+
+        <div class="lang-switch">
+          
+
+          <a href="/ko/team.html" 
+            class="lang-btn ">
+            KO
+          </a>
+
+          <a href="/en/team.html" 
+            class="lang-btn active">
+            EN
+          </a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+          <li><a href="/en/team.html">Team</a></li>
+          <li><a href="/en/publications.html">Publications</a></li>
+          <li><a href="/en/research.html">Research</a></li>
+          <li><a href="/en/news.html">News</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+    <div class="wrapper">
+        <div class="wrapper">
+            <div class="breadcrumb-area text-center" style="padding: 13% 0px 10% 0px;">
+            <div class="team-area team-padd default-padding bottom-less" style="margin-top: 50px;height: 800px;margin-bottom:270px">
+                <div class="container">
+                    <div class="team-items text-center">
+                        <div class="row">
+
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center">
+                                    <h2>Faculty</h2>
+                                    <div class="heading-divider"></div>
+                                </div>
+                            </div>
+
+                            <!-- Single Item -->
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;">
+                                <div class="wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp; margin-top: 10px;">
+
+                                    <div class="thumb team-img" style="float:left; position: relative;">
+                                        <img src="/static/image/team/강윤철.png" alt="Thumb" style="padding-top:10px;padding-bottom: 10px;">
+                                    </div>
+
+                                    <div class="info team-desc prof" style="float:left;display:inline;padding-left: 25px;padding-top: 100px;margin-top:-70px">
+                                        <h4 class="pname" style="font-weight:bold;text-align:left;">Yuncheol Kang (강윤철)</h4>
+                                        <div class="contact">
+                                            <p>Email: <a href="mailto:yckangat ewha dot ac dot kr" style="transition: width 2s">yckang at ewha dot ac dot kr</a><br></p>
+			    <div class="contact">
+				<p>
+				Since March 2020, Associate Professor at the College of Business, Ewha Womans University.
+                Previously served at the Department of Industrial Engineering (now the Department of Industrial Data Engineering), Hongik University (2016–2020).
+                B.S. in Industrial Engineering from KAIST; M.S. from Seoul National University (Advisor: Jinwoo Park); Ph.D. from The Pennsylvania State University (Advisor: Vittaldas Prabhu).
+                Prior industry experience includes systems engineering at LG CNS and contributions to electronic passport system initiatives in Korea.
+                Experience also includes leadership in IT system development projects associated with public services in the Commonwealth of Pennsylvania, USA. <br><br>
+
+                Research interests center on the integration of information technology and decision-making methodologies.
+                Current work focuses on artificial intelligence approaches to sequential decision optimization, with applications in manufacturing, logistics, healthcare, and the public sector. <br><br>
+
+                - Sequential decision-making and simulation-based optimization (e.g., Reinforcement Learning) <br>
+                - Human–AI interaction (e.g., explainability, Human-in-the-Loop systems) <br>
+                - Data analytics integrated with optimization (e.g., prediction, diagnosis, classification) <br><br>
+
+                Courses: Sequential Decision Making, Business Statistics, Business Data Analytics<br>
+				<a href="https://scholar.google.com/citations?user=RJ9Cr0QAAAAJ&hl=en">Google Scholar Profile</a>, <a href="https://www.researchgate.net/profile/Yuncheol-Kang-2">Research Gate Profile</a>
+				</p>
+
+				</div>
+                                		</div>
+				</div>
+
+                            	</div>
+			</div>
+
+		     </div>
+                            <!-- End Single Item -->
+			</div>
+                    		</div>
+
+<div class="team-area team-padd default-padding bottom-less" style="margin-top: 100px;height: 800px;margin-bottom:270px">
+                <div class="container">
+                    <div class="team-items text-center">
+                        <div class="row">
+
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center">
+                                    <h2>Research Collaborators</h2>
+                                    <div class="heading-divider"></div>
+                                </div>
+                            </div>
+
+                            <!-- Single Item -->
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;">
+                                <div class="wow fadeInUp  animated" style="visibility: visible; animation-name: fadeInUp; margin-top: 10px;">
+
+                                    <div class="thumb team-img" style="float:left; position: relative;">
+                                        <img src="/static/image/장성수.jpg" alt="Thumb" style="padding-top:10px;padding-bottom: 10px;">
+                                    </div>
+
+                                    <div class="info team-desc prof" style="float:left;display:inline;padding-left: 25px;padding-top: 100px;margin-top:-70px">
+                                        <h4 class="pname" style="font-weight:bold;text-align:left;">Seongsoo (Simon) Jang (장성수)</h4>
+                                        <div class="contact">
+                                            <p>Email: <a href="mailto:JangS at Cardiff dot ac dot uk" style="transition: width 2s">JangS at Cardiff dot ac dot uk</a><br></p>
+			    <div class="contact">
+				<p>
+				Professor Seongsoo Jang joined the AAPL Research Group as a Research Collaborator in December 2023.
+                Currently serves as Reader of Empirical Marketing (Associate Professor of Marketing) 
+                at Cardiff Business School, Cardiff University, United Kingdom.
+
+                Brings approximately 15 years of industry experience from SK Telecom and SK Planet, 
+                with professional expertise spanning international roaming, 
+                marketing and product strategy, mobile app markets, and business intelligence.
+
+                Research focuses on empirical marketing based on real-world quantitative data. 
+                Specific areas of interest include Digital Marketing, Retail Marketing, 
+                CSR/ESG Management, Health & Social Care Analytics, and Data-driven Better Marketing for a Better Society. 
+                Author of more than 30 SSCI-indexed journal articles.
+
+                Actively engaged in industry–academia collaboration and consulting projects 
+                with UK and Korean firms to support data-driven decision-making. 
+                Delivers executive lectures on “Quantitative Intuition-Based Decision Making” for corporate audiences 
+                (e.g., SK University, SK Broadband) and MBA managers. 
+                Also serves as a visiting professor at several international institutions, 
+                including the University of Surrey, Xiamen University, and the Institute of Management and Technology Dubai.
+                </p>
+
+				</div>
+                                		</div>
+				</div>
+
+                            	</div>
+			</div>
+
+		     </div>
+                            <!-- End Single Item -->
+			</div>
+                    		</div>
+
+
+            <div id="team-doc" class="team-area team-padd bg-gray default-padding bottom-less doc" style="margin-top:50px;">
+                <div class="container">
+                    <div class="team-items text-center two-col" id="students-two-col">
+                        <div class="row" style="padding-top:100px;">
+
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center" style="margin-top: 10px">
+                                    <h2>Doctoral students</h2>
+                                    <div class="heading-divider"></div>
+                                </div>
+                            </div>
+
+                            <!-- Single Item -->
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/권소정.JPG" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Sojeong Kwon (권소정)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory in September 2020.
+                Received an M.S. in Big Data Analytics in 2022 and is currently engaged in advanced research in Management Science.
+                Research interests center on exploring whether human decision-making processes can be integrated into machine learning frameworks to enhance performance, 
+                with a particular focus on their practical applicability in business contexts. <br></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/김가영.JPG" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Gayoung Kim (김가영)</h3>
+                                        <div class="contact">
+                                            <p>
+				Entered the Ph.D. program in Big Data Analytics in September 2021 and joined the laboratory in January 2022.
+                Received both B.A. and M.A. degrees in Mathematics Education from Ewha Womans University.
+                Previously worked at an EdTech company specializing in mathematics education.
+                Research interests are motivated by the application of artificial intelligence in education, 
+                with a current focus on curriculum learning as a training strategy for deep learning models across various tasks, 
+                including computer vision (CV) and natural language processing (NLP). <br>
+				</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                          
+
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/김효민.png" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Hyomin Kim (김효민)</h3>
+                                        <div class="contact">
+                                            <p>
+				Began the Ph.D. program in Artificial Intelligence Convergence in March 2024.
+                Previously worked in the IT industry on product development utilizing generative AI technologies and on research involving graph neural network models.
+                Motivated by the importance of bridging the gap between theory and practice, decided to pursue doctoral studies. 
+                Inspired by Professor Yoon-Cheol Kang’s course on Reinforcement Learning during the master’s program, subsequently joined the AAPL laboratory.
+                Aims to grow as a researcher who advances the practical implementation of AI technologies and drives meaningful transformation in industry.<br>
+				</p>
+                                        </div>
+                                    </div>
+                                </div>
+			</div>
+
+                            <div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/황지혜.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Jihye Hwang (황지혜)</h3>
+                                        <div class="contact">
+                                            <p>
+				Began the Ph.D. program in Artificial Intelligence Convergence in March 2024.
+                Received an M.S. in Data Science in 2023.
+                Holds a bachelor’s degree in Korean Medicine and has clinical experience 
+                as a licensed Korean Medicine doctor, providing patient care in medical practice.
+                Research interests include reinforcement learning for Clinical Decision Support Systems (CDSS), 
+                medical diagnosis, and treatment optimization.
+                Aims to enhance diagnostic accuracy and improve treatment processes through the integration of medical data and artificial intelligence, 
+                ultimately contributing to higher-quality healthcare services.<br>
+				</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+				
+
+
+	
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team-area team-padd default-padding bottom-less">
+                <div class="container">
+                    <div class="team-items text-center two-col" id="students-two-col">
+                        <div class="row" style="padding-top:100px;">
+                            <div class="col-lg-8 offset-lg-2">
+                                <div class="site-heading text-center">
+                                    <h2>Master’s students</h2>
+                                    <div class="heading-divider"></div>
+                                </div>
+                            </div>
+
+
+                            <!-- Single Item -->
+                            <!--div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/이도연.jpeg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Doyeon Lee (이도연)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory in July 2022 and began the master’s program in September 2022.
+                Entered the lab to build practical experience and foundational knowledge in data analytics.
+                Research interests focus on analytical methodologies that extract meaningful insights from data to support better decision-making. <br>
+				</p>
+                                        </div>
+                                    </div>
+                                </div>
+			</div-->
+                            <!-- End Single Item -->
+
+                            <!-- Single Item -->
+                            <!--div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/박건희.jpg" alt="Thumb" style="padding-top:60px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Gunhee Park (박건희)</h3>
+                                        <div class="contact">
+                                            <p>
+				Began the master’s program in March 2022 and joined the laboratory in September 2022.
+                Joined the lab with research interests in causal inference and explainable machine learning.
+                Currently interested in extending and enhancing research on Explainable AI (XAI) through exploratory data analysis (EDA) and dimensionality reduction techniques. <br>
+				</p>
+                                        </div>
+                                    </div>
+                                </div>
+			    </div-->
+                            <!-- End Single Item -->
+
+                            <!-- Single Item -->
+                            <!--div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/류명진.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Myoungjin Ryu (류명진)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory in January 2023.
+                Previously conducted a project on stock price movement prediction using unstructured data, motivated by an interest in natural language processing.
+                Currently engaged in research on reinforcement learning–based recommender systems.
+                Particular interest lies in distributional reinforcement learning, including its various models, real-world applications, and computational efficiency.<br>
+				</p>
+                                        </div>
+                                    </div>
+                                </div>
+			</div-->
+                            <!-- End Single Item -->
+
+                            <!-- Single Item -->
+                            <!--div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/신미향.png" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Meixiang Shen (신미향)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory in April 2023.
+                Entered the lab with an interest in data analytics for improving decision-making processes.
+                Focuses on developing data-driven methodologies and enhancing analytical efficiency to better understand user needs and drive practical improvements in real-world settings. <br>
+				</p>
+                                        </div>
+                                    </div>
+                                </div>
+						</div-->
+                            <!-- End Single Item -->       
+                     
+		  
+
+
+				<!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/김나영.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Nayoung Kim (김나영)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory as an undergraduate research assistant in July 2023.
+                Pursuing a double major in Brain and Cognitive Sciences and Computer Science at Ewha Womans University.
+                Has a strong interest in AI-driven decision-making, particularly in creating value within the financial domain. <br>
+				</p>
+                                	</div>
+                        	</div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+
+
+				
+	<!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/정희수.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">HEESU CHEONG (정희수)</h3>
+                                        <div class="contact">
+                                            <p>
+				Began the master’s program in Big Data Analytics in March 2024 and joined the laboratory in June 2024.
+                Interested in generating actionable insights through big data analytics and developing AI-driven services.
+                Particular research interests include applications in finance and healthcare, with a growing focus on reinforcement learning and decision-making research. <br>
+				</p>
+                                	</div>
+                        	</div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+
+
+					<!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/임천훼.JPG" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Chienhui Lin (임천훼)</h3>
+                                        <div class="contact">
+                                            <p>
+					Began the master’s program in Big Data Analytics in March 2024 and joined the laboratory in May 2024.
+                    With a background in Economics, entered the lab with research interests in reinforcement learning and natural language processing.
+                    Particular interest lies in the application of reinforcement learning to game and sports analytics. <br>
+				</p>
+                                	</div>
+                        	</div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+				
+
+
+					<!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/김예린.jpg" alt="Thumb" style="padding-top:20px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Yerin Kim (김예린)</h3>
+                                        <div class="contact">
+                                            <p>
+					Began the master’s program in Big Data Analytics in March 2024 and joined the laboratory in June 2024.
+                    Joined the lab with a research interest in reinforcement learning.
+                    Interested in analytical methodologies that derive meaningful insights from data to support improved decision-making. <br>
+				</p>
+                                	</div>
+                        	</div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+<!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/손예원.jpeg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Yewon Son (손예원)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory as an undergraduate research assistant in April 2024.
+                Currently pursuing a major in Business Administration along with a specialized track in Software Convergence at Ewha Womans University.
+                Interested in exploring how data analytics can create new value grounded in a business perspective. <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+
+<!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/라예흠.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Yeheum Lah (라예흠)</h3>
+                                        <div class="contact">
+                                            <p>
+			With a background in Management Science, interested in leveraging big data analytics to support better decision-making in organizations.
+            Also motivated by exploring how data-driven approaches can contribute to building a better society.
+            Particular interest lies in the application of data and artificial intelligence in the healthcare domain. <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+				<!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/이혜리.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Harry Lee (이혜리)</h3>
+                                        <div class="contact">
+                                            <p>
+			Began the master’s program in Artificial Intelligence Convergence in March 2024.
+            Interested in applying AI and big data technologies to address complex challenges across various industries.
+            Particular research interest lies in the application of reinforcement learning for decision-making optimization. <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+                <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/문정현.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Jeonghyeon Moon (문정현)</h3>
+                                        <div class="contact">
+                                            <p>
+			Completed a double major in Psychology and Business Administration at the undergraduate level.
+            Currently conducting experimental research on the decision-making characteristics and human-likeness of large language models (LLMs). <br><br>
+            Research Interests & Ongoing Work
+            - Synthetic persona–based behavioral analysis of LLMs and comparative experiments with human data <br>
+            - Quantitative evaluation of LLM consistency and judgment under value-conflict scenarios <br>
+            - Exploration of reinforcement learning–based policy optimization for LLMs <br>
+            - Personalized interventions (JITAI) and decision support research in medical AI <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+		    <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/김지원_1.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Jiwon Kim (김지원)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory as an undergraduate research assistant in September 2024.
+                Majored in Business Administration and Statistics at Ewha Womans University and is currently pursuing a master’s degree in Business Administration.
+                Particularly interested in maximizing organizational efficiency based on business knowledge and in exploring the use of artificial intelligence as a decision-support tool. <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/배은진.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Eunjin Bae (배은진)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory in September 2025.
+                Began the master’s program in Big Data Analytics with the goal of learning advanced methods for analyzing and leveraging big data to support decision-making for organizations and individuals.
+                Particular interest lies in the application of machine learning within the music industry, especially in copyright and intellectual property protection.
+                Aims to conduct research on music similarity analysis and predictive modeling. <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/진하은.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Haeun Jin (진하은)</h3>
+                                        <div class="contact">
+                                            <p>
+				Began the master’s program in Big Data Analytics and joined the laboratory in March 2026.
+                With professional experience in marketing and e-commerce companies, interested in leveraging data analytics to understand user behavior from a marketing perspective and to support decision-making processes.
+                Currently exploring various analytical methodologies and artificial intelligence techniques, with the goal of applying them to real-world problems. <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/원윤서.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Yoonseo Won (원윤서)</h3>
+                                        <div class="contact">
+                                            <p>
+				Began the master’s program in Big Data Analytics and joined the laboratory in March 2026.
+                Interested in leveraging artificial intelligence and data analytics to support organizational decision-making 
+                and to generate meaningful insights within business contexts. <br>
+				</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<div class="team-area default-padding bottom-less">
+        <div class="container">
+            <div class="team-items text-center two-col" id="students-two-col">
+                <div class="row" style="padding-top:100px;">
+                  <div class="col-lg-8 offset-lg-2">
+                    <div class="site-heading text-center">
+                        <h2>Undergraduate interns</h2>
+                        <div class="heading-divider"></div>
+                    </div>
+                </div>   
+
+
+
+            <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/최윤성.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Yunseong Choi (최윤성)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory as an undergraduate research assistant in May 2025.
+                Currently majoring in Business Administration, Statistics, and a specialized track in Software Convergence at Ewha Womans University.
+                Interested in structuring and solving complex problems through data-driven decision-making. Actively studying various AI methodologies, including machine learning and deep learning, and exploring their application to real-world challenges.
+                Through research activities, aims to deepen academic interests and examine how theoretical knowledge can be effectively translated into practical business settings. <br>
+						</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+			
+            <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/박여경.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Yeogyung Park (박여경)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory as an undergraduate research assistant in October 2025.
+                Majoring in Computer Science at Ewha Womans University.
+                Research interests include reinforcement learning and explainable artificial intelligence.
+                Particular focus lies in exploring practical decision-making systems through human–AI collaboration in the healthcare domain. <br>
+						</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/정혜원.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">HYEWON JEONG (정혜원)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory as an undergraduate research assistant in November 2025.
+                Majoring in Business Administration and Software at Ewha Womans University.
+                Interested in the overall process of understanding and structuring business problems through data analytics and artificial intelligence methodologies.
+                Currently exploring diverse domains and analytical approaches, with the aim of applying them effectively to real-world business challenges. <br>
+						</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+
+            <!-- Single Item -->
+		<div class="single-item teamcol-lg-6 col-md-6" style="box-shadow: 0 5px 30px 0 rgb(214 215 216 / 57%);background-color: white;margin-bottom:10px;">
+                                <div class="wow fadeInUp" style="visibility: hidden; animation-name: none;">
+                                    <div class="thumb team-stud-img" style="float:left;position: relative;">
+                                        <img src="/static/image/team/윤소이.jpg" alt="Thumb" style="padding-top:50px;padding-bottom: 20px;">
+                                    </div>
+                                    <div class="info team-desc stud" style="float:left;display:inline;padding-left: 25px;">
+                                        <h3 style="font-size:18px;text-align:left;font-weight:bold;">Soyee Yoon (윤소이)</h3>
+                                        <div class="contact">
+                                            <p>
+				Joined the laboratory as an undergraduate research assistant in December 2025.
+                Majoring in Psychology and Business Administration at Ewha Womans University.
+                Interested in understanding problems arising in industrial and business settings through data analytics and artificial intelligence, and in structuring them from a decision-making perspective.
+                Aims to explore how data can be utilized in consideration of contextual and decision structures, ensuring that analytical insights are effectively translated into real-world applications. <br>
+						</p>
+                                        </div>
+                                    </div>
+			</div>
+		</div>
+            <!-- End Single Item -->
+			
+        </div>
+    </div>
+
+
+</div></div>
+
+<!--div class="choose-us-area bg-gray default-padding" style="background-color:#f3f7fda8;">
+                <div class="container">
+                    <div class="row align-center" style="padding-top:100px;">
+                        <div class="col-lg-12 wow fadeInLeft info" style="visibility: visible; animation-name: fadeInLeft;">
+                            <h2><strong style="color: #4154f1;">Alumni</strong> </h2>
+                            <ul style="margin-left: -30px;">
+                            <li>
+                                    <h4>(M.S, 2025) Soyeon Baek (백소연), Chaeyeon Lee (이채연)</h4>
+                                </li>
+	                        <li>
+                                    <h4>(M.S, 2025) Gunhee Park (박건희), Angelica Audrey (안젤리카 오드리)</h4>
+                                </li>
+		                <li>
+                                    <h4>(M.S, 2024) Doyeon Lee (이도연),Myoungjin Ryu (류명진)</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2023) Jeongyeon Woo (우정연), Bora Nam (남보라), Jiyoon Kim (김지윤), Jing Liu (유정), Hong Jin (김홍)</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2022) Julie Maeng (맹주리) /BISTelligence</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2022) Huijin Jo (조희진) /Dongwha Group</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2022) Sojeong Kwon (권소정) /subsequently, 이화여자대학교 박사과정</h4>
+                                </li>
+                                <li>
+                                    <h4>(M.S, 2021) Danbi Kim (김단비) /KB Kookmin Bank</h4>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div-->
+
+<div class="footer-bottom" style="background-color: #00462A;padding-top:20px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p style="color: #ffffff;line-height: 17px;font-size: 12px;">© 2022 AAPL lab. Site made with <a target="_blank" href="https://jekyllrb.com/" style="color: #A7D9A3;font-weight: 500;">Jekyll</a>; <a target="_blank" style="color: #A7D9A3;font-weight: 500;" href="https://bigdataewha.github.io/aboutwebsite.html">copy and modify it for your own research group. </a>
+                        <br>We are part of the <a target="_blank" href="http://www.ewha.ac.kr/ewha/index.do" style="color: #A7D9A3;font-weight: 500;">Big data analytics of Ewha Womans University</a> at <a target="_blank" style="color: #A7D9A3;font-weight: 500;" href="https://cms.ewha.ac.kr/user/indexMain.action?siteId=bigdata">Ewha Womans University.</a></p>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <p style="color: #ffffff;line-height: 17px;font-size: 12px;">Contact: 03760 서울특별시 서대문구 이화여대길52 이화신세계관 419호
+                        <br>Seoul, Republic of Korea <a target="_blank" href="https://goo.gl/maps/C6k6BB28QEy95yjt9" style="color: #A7D9A3;font-weight: 500;">(Maps)</a></p>
+                </div>
+
+                </div>
+            </div>
+        </div>
+    
+    <!-- jQuery Frameworks
+    ============================================= -->
+    <script src="/static/js/jquery-1.12.4.min.js"></script>
+    <script src="/static/js/popper.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/equal-height.min.js"></script>
+    <script src="/static/js/jquery.appear.js"></script>
+    <script src="/static/js/jquery.easing.min.js"></script>
+    <script src="/static/js/jquery.magnific-popup.min.js"></script>
+    <script src="/static/js/modernizr.custom.13711.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/wow.min.js"></script>
+    <script src="/static/js/progress-bar.min.js"></script>
+    <script src="/static/js/isotope.pkgd.min.js"></script>
+    <script src="/static/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/static/js/count-to.js"></script>
+    <script src="/static/js/YTPlayer.min.js"></script>
+    <script src="/static/js/progresscircle.js"></script>
+    <script src="/static/js/bootsnav.js"></script>
+    <script src="/static/js/main.js"></script>
+
+<div id="__endic_crx__"><div class="css-diqpy0"></div></div></div></div></div></div></body></html>

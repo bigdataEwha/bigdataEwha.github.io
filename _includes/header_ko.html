@@ -1,0 +1,40 @@
+<header id="home">
+  <nav class="navbar navbar-default attr-bg navbar-fixed white no-background bootsnav" style="background-color: #00462A">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu" style="color: white;">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <a class="navbar-brand" href="/ko/index.html">
+          <img src="/static/picture/logo_ewha1.png" class="logo logo-display" alt="Logo" style="height:70px;">
+          <img src="/static/picture/logo_ewha1.png" class="logo logo-scrolled" alt="Logo" style="height:70px;">
+        </a>
+
+        <div class="lang-switch">
+          {% assign clean_url = page.url | replace_first:'/ko','' | replace_first:'/en','' %}
+
+          <a href="/ko{{ clean_url }}" 
+            class="lang-btn {% if page.url contains '/ko/' %}active{% endif %}">
+            KO
+          </a>
+
+          <a href="/en{{ clean_url }}" 
+            class="lang-btn {% if page.url contains '/en/' %}active{% endif %}">
+            EN
+          </a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+          <li><a href="/ko/team.html">Team</a></li>
+          <li><a href="/ko/publications.html">Publications</a></li>
+          <li><a href="/ko/research.html">Research</a></li>
+          <li><a href="/ko/news.html">News</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
